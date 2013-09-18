@@ -1,0 +1,17 @@
+unit_count = 1000
+cylinders_per_unit_min = 1
+cylinders_per_unit_max = 7
+r_avg = 300
+r_stdev = 30
+l_avg = 650
+l_stdev = 3
+alpha_stdev = 10
+zdisp = 0
+rho1 = 0.5 
+rho2 = 0.7
+period_proportion = 0.5
+period_proportion_stdev = 0
+period_min = 7
+period_max = 17
+tilt_lattice = 1
+use_random_orientation = 1
