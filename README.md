@@ -63,7 +63,7 @@ Output
 ------
 SAXS_calc produces output in the format:
 
-
+<pre>
 unit_count = 1000.000000
 cylinders_per_unit_min = 1.000000
 cylinders_per_unit_max = 7.000000
@@ -91,7 +91,7 @@ electron density file name =
 0.000000 0.000400 0.000000 25618389524108539854848.0000000000000000
 0.000000 0.000500 0.000000 21704625012988807479296.0000000000000000
 0.000000 0.000600 0.000000 18268495742396761374720.0000000000000000
-
+</pre>
 
 First is a header part that lists the parameters that were used.
 After the header comes the actual scattering data. A row consists of
@@ -217,6 +217,7 @@ use in generating the data. After that follow cylinder descriptions
 and each scattering unit (i.e. independent scatterers) is separated by
 a line that contains a *.
 
+<pre>
 ###
 unit_count = 1000.000000
 cylinders_per_unit_min = 1.000000
@@ -249,6 +250,7 @@ cylper -76.367907 450.174688 -347.331604 242.140182 39.929811 74.968435 651.3139
 cylper -550.447423 296.900070 -120.514898 305.299598 39.929811 74.968435 649.365565 10 0.500000 0.700000 0.500000
 cylper 245.477975 -433.477379 297.123416 248.574652 39.929811 74.968435 651.080265 11 0.500000 0.700000 0.500000
 *
+</pre>
 
 The parameters for each cylinder are in the following order:
 
